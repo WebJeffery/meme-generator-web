@@ -69,7 +69,45 @@ export default defineConfig({
     },
   ],
   // 动态图标需要在这里配置，或者写在vue页面中注释掉
-  safelist: ['i-carbon-code', 'i-carbon-home', 'i-carbon-user'],
+  safelist: [
+    'i-carbon-code',
+    'i-carbon-home',
+    'i-carbon-user',
+    'i-carbon-template',
+    'i-carbon-search',
+    'i-carbon-notification',
+    'i-carbon-favorite',
+    'i-carbon-favorite-filled',
+    'i-carbon-share',
+    'i-carbon-trash-can',
+    'i-carbon-view',
+    'i-carbon-edit',
+    'i-carbon-image',
+    'i-carbon-time',
+    'i-carbon-star',
+    'i-carbon-settings',
+    'i-carbon-chevron-right',
+    'i-carbon-folder',
+    'i-carbon-information',
+    'i-carbon-face-satisfied',
+    'i-carbon-face-neutral',
+    'i-carbon-face-dizzy',
+    'i-carbon-grid',
+    'i-carbon-briefcase',
+    'i-carbon-calendar',
+    'i-carbon-logo-wechat',
+    'i-carbon-chevron-up',
+    'i-carbon-chevron-down',
+    'i-carbon-document',
+    'i-carbon-help',
+    'i-carbon-storage',
+    'i-carbon-volume-up',
+    'i-carbon-download',
+    'i-carbon-chat',
+    'i-carbon-play',
+    'i-carbon-close',
+    'i-carbon-checkmark',
+  ],
   rules: [
     [
       'p-safe',
@@ -84,7 +122,7 @@ export default defineConfig({
   theme: {
     colors: {
       /** 主题色，用法如: text-primary */
-      primary: 'var(--wot-color-theme,#0957DE)',
+      primary: 'var(--wot-color-theme,#22C55E)', // 主色：绿色 #22C55E
     },
     fontSize: {
       /** 提供更小号的字体，用法如：text-2xs */

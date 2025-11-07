@@ -1,98 +1,220 @@
 <p align="center">
-  <a href="https://github.com/unibest-tech/unibest">
+  <a href="https://github.com/zhifeixie/meme-generator">
     <img width="160" src="./src/static/logo.svg">
   </a>
 </p>
 
 <h1 align="center">
-  <a href="https://github.com/unibest-tech/unibest" target="_blank">unibest - 最好的 uniapp 开发框架</a>
+  <a href="https://github.com/zhifeixie/meme-generator" target="_blank">AI表情包生成器</a>
 </h1>
 
 <div align="center">
-旧仓库 codercup 进不去了，star 也拿不回来，这里也展示一下那个地址的 star.
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/codercup/unibest?style=flat&logo=github)](https://github.com/codercup/unibest)
-[![GitHub forks](https://img.shields.io/github/forks/codercup/unibest?style=flat&logo=github)](https://github.com/codercup/unibest)
-
-</div>
-
-<div align="center">
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/feige996/unibest?style=flat&logo=github)](https://github.com/feige996/unibest)
-[![GitHub forks](https://img.shields.io/github/forks/feige996/unibest?style=flat&logo=github)](https://github.com/feige996/unibest)
-[![star](https://gitee.com/feige996/unibest/badge/star.svg?theme=dark)](https://gitee.com/feige996/unibest/stargazers)
-[![fork](https://gitee.com/feige996/unibest/badge/fork.svg?theme=dark)](https://gitee.com/feige996/unibest/members)
-![node version](https://img.shields.io/badge/node-%3E%3D18-green)
-![pnpm version](https://img.shields.io/badge/pnpm-%3E%3D7.30-green)
-![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/feige996/unibest)
-![GitHub License](https://img.shields.io/github/license/feige996/unibest)
+![node version](https://img.shields.io/badge/node-%3E%3D20-green)
+![pnpm version](https://img.shields.io/badge/pnpm-%3E%3D9-green)
+![Vue version](https://img.shields.io/badge/Vue-3.4.21-blue)
+![TypeScript version](https://img.shields.io/badge/TypeScript-5.8-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 </div>
 
-`unibest` —— 最好的 `uniapp` 开发模板，由 `uniapp` + `Vue3` + `Ts` + `Vite5` + `UnoCss` + `wot-ui` + `z-paging` 构成，使用了最新的前端技术栈，无需依靠 `HBuilderX`，通过命令行方式运行 `web`、`小程序` 和 `App`（编辑器推荐 `VSCode`，可选 `webstorm`）。
-
-`unibest` 内置了 `约定式路由`、`layout布局`、`请求封装`、`请求拦截`、`登录拦截`、`UnoCSS`、`i18n多语言` 等基础功能，提供了 `代码提示`、`自动格式化`、`统一配置`、`代码片段` 等辅助功能，让你编写 `uniapp` 拥有 `best` 体验 （ `unibest 的由来`）。
+`AI表情包生成器` —— 一款基于 AI 驱动的表情包生成工具，专注中文社交场景，支持一键分享到主流平台。基于 `uniapp` + `Vue3` + `TypeScript` + `Vite5` + `UnoCSS` + `wot-design-uni` 构建，使用 `unibest` 框架开发。
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/screenshots/lines/rainbow.png)
 
-<p align="center">
-  <a href="https://unibest.tech/" target="_blank">📖 文档地址(new)</a>
-  <span style="margin:0 10px;">|</span>
-  <a href="https://feige996.github.io/hello-unibest/" target="_blank">📱 DEMO 地址</a>
-</p>
+## ✨ 功能特性
 
----
+### 核心功能
+- 🤖 **AI表情包生成** - 支持文字生成和模板生成两种模式
+- 🎨 **多种风格选择** - 搞笑、可爱、严肃、萌等多种风格
+- 📝 **表情包编辑** - 文字编辑、滤镜效果等编辑功能
+- 📤 **一键分享** - 支持微信、钉钉、企业微信分享，保存到相册
+- 📚 **模板库** - 丰富的表情包模板，分类浏览和搜索
+- 💾 **内容管理** - 我的表情包、收藏、历史记录管理
 
-注意旧的地址 [codercup](https://github.com/codercup/unibest) 我进不去了，使用新的 [feige996](https://github.com/feige996/unibest)。PR和 issue 也请使用新地址，否则无法合并。
+### 用户功能
+- 👤 **用户系统** - 微信快捷登录、手机号登录
+- ⭐ **会员系统** - 会员特权、套餐购买
+- 🔍 **搜索功能** - 搜索表情包和模板，支持热门搜索和历史记录
+- 🏛️ **表情包广场** - 社区功能，浏览热门表情包
+- ⚙️ **设置中心** - 账号设置、通知设置、存储管理
 
-## 平台兼容性
+## 🎯 技术栈
 
-| H5  | IOS | 安卓 | 微信小程序 | 字节小程序 | 快手小程序 | 支付宝小程序 | 钉钉小程序 | 百度小程序 |
-| --- | --- | ---- | ---------- | ---------- | ---------- | ------------ | ---------- | ---------- |
-| √   | √   | √    | √          | √          | √          | √            | √          | √          |
+- **框架**: uniapp + Vue3 + TypeScript
+- **构建工具**: Vite5
+- **样式方案**: UnoCSS (原子化CSS)
+- **UI组件库**: wot-design-uni
+- **状态管理**: Pinia
+- **HTTP请求**: alova / vue-query
+- **开发框架**: unibest 4.0
 
-注意每种 `UI框架` 支持的平台有所不同，详情请看各 `UI框架` 的官网，也可以看 `unibest` 文档。
+## 📱 平台支持
 
-## ⚙️ 环境
+| H5  | iOS | Android | 微信小程序 | 支付宝小程序 | 钉钉小程序 |
+| --- | --- | ------- | ---------- | ------------ | ---------- |
+| ✅  | ✅  | ✅      | ✅          | ✅            | ✅          |
 
-- node>=18
-- pnpm>=7.30
-- Vue Official>=2.1.10
-- TypeScript>=5.0
+## ⚙️ 环境要求
 
-## 新版分支 
-- main == base
-- base --> base-i18n
-- base-login --> base-login-i18n
+- Node.js >= 20
+- pnpm >= 9
+- Vue Official >= 2.1.10
+- TypeScript >= 5.0
 
-## &#x1F4C2; 快速开始
+## 🚀 快速开始
 
-执行 `pnpm create unibest` 创建项目
-执行 `pnpm i` 安装依赖
-执行 `pnpm dev` 运行 `H5`
-执行 `pnpm dev:mp` 运行 `微信小程序`
+### 安装依赖
 
-## 📦 运行（支持热更新）
+```bash
+pnpm install
+```
 
-- web平台： `pnpm dev:h5`, 然后打开 [http://localhost:9000/](http://localhost:9000/)。
-- weixin平台：`pnpm dev:mp` 然后打开微信开发者工具，导入本地文件夹，选择本项目的`dist/dev/mp-weixin` 文件。
-- APP平台：`pnpm dev:app`, 然后打开 `HBuilderX`，导入刚刚生成的`dist/dev/app` 文件夹，选择运行到模拟器(开发时优先使用)，或者运行的安卓/ios基座。(如果是 `安卓` 和 `鸿蒙` 平台，则不用这个方式，可以把整个unibest项目导入到hbx，通过hbx的菜单来运行到对应的平台。)
+### 开发运行
 
-## 🔗 发布
+```bash
+# H5 开发
+pnpm dev
 
-- web平台： `pnpm build:h5`，打包后的文件在 `dist/build/h5`，可以放到web服务器，如nginx运行。如果最终不是放在根目录，可以在 `manifest.config.ts` 文件的 `h5.router.base` 属性进行修改。
-- weixin平台：`pnpm build:mp`, 打包后的文件在 `dist/build/mp-weixin`，然后通过微信开发者工具导入，并点击右上角的“上传”按钮进行上传。
-- APP平台：`pnpm build:app`, 然后打开 `HBuilderX`，导入刚刚生成的`dist/build/app` 文件夹，选择发行 - APP云打包。(如果是 `安卓` 和 `鸿蒙` 平台，则不用这个方式，可以把整个unibest项目导入到hbx，通过hbx的菜单来发行到对应的平台。)
+# 微信小程序开发
+pnpm dev:mp
+
+# 支付宝小程序开发
+pnpm dev:mp-alipay
+
+# APP 开发
+pnpm dev:app
+```
+
+### 生产构建
+
+```bash
+# H5 构建
+pnpm build:h5
+
+# 微信小程序构建
+pnpm build:mp
+
+# APP 构建
+pnpm build:app
+```
+
+## 📁 项目结构
+
+```
+meme-generator-web/
+├── src/
+│   ├── api/              # API接口定义
+│   │   ├── meme.ts       # 表情包相关API
+│   │   ├── template.ts   # 模板相关API
+│   │   └── types/        # 类型定义
+│   ├── components/       # 公共组件
+│   │   ├── meme-card/           # 表情包卡片
+│   │   ├── template-card/       # 模板卡片
+│   │   ├── style-selector/      # 风格选择器
+│   │   └── empty-state/         # 空状态组件
+│   ├── pages/            # 页面文件
+│   │   ├── index/        # 首页/生成页
+│   │   ├── generate/     # 生成结果页
+│   │   ├── template/     # 模板库
+│   │   ├── my/           # 个人中心
+│   │   ├── auth/         # 登录注册
+│   │   ├── search/       # 搜索页
+│   │   ├── edit/         # 编辑页
+│   │   ├── square/       # 表情包广场
+│   │   └── help/         # 帮助中心
+│   ├── store/            # 状态管理
+│   │   ├── meme.ts       # 表情包状态
+│   │   ├── user.ts       # 用户状态
+│   │   └── token.ts      # Token状态
+│   ├── utils/            # 工具函数
+│   │   ├── share.ts      # 分享工具
+│   │   └── image.ts      # 图片处理
+│   ├── http/             # HTTP请求封装
+│   ├── tabbar/           # 底部导航栏
+│   └── style/            # 全局样式
+├── docs/                 # 项目文档
+│   └── uni-app移动端需求开发文档.md
+├── package.json
+├── vite.config.ts        # Vite配置
+├── pages.config.ts       # 页面配置
+├── uno.config.ts         # UnoCSS配置
+└── README.md
+```
+
+## 🎨 页面列表
+
+### MVP版本（核心页面）
+1. **首页/生成页** (`pages/index/index`) - AI表情包生成主页面
+2. **生成结果页** (`pages/generate/result`) - 展示生成结果
+3. **模板库首页** (`pages/template/index`) - 浏览所有模板
+4. **模板详情页** (`pages/template/detail`) - 模板详情和生成
+5. **个人中心** (`pages/my/index`) - 用户信息和功能入口
+6. **我的表情包** (`pages/my/emoji`) - 查看生成的表情包
+7. **登录注册页** (`pages/auth/login`) - 用户认证
+
+### 1.0版本（重要功能）
+8. **我的收藏** (`pages/my/favorite`) - 查看收藏的表情包
+9. **历史记录** (`pages/my/history`) - 查看生成历史
+10. **会员中心** (`pages/my/vip`) - 会员购买和管理
+11. **设置页** (`pages/my/settings`) - 应用设置
+12. **搜索页** (`pages/search/index`) - 搜索表情包和模板
+13. **编辑页** (`pages/edit/index`) - 编辑生成的表情包
+
+### 2.0版本（增强功能）
+14. **表情包广场** (`pages/square/index`) - 浏览社区表情包
+15. **表情包详情页（广场）** (`pages/square/detail`) - 查看表情包详情
+16. **帮助中心** (`pages/help/index`) - 使用帮助和常见问题
+
+## 🔧 开发规范
+
+### 代码规范
+- 使用 Vue3 组合式 API (`<script setup>`)
+- TypeScript 类型完整，避免使用 `any`
+- 遵循 ESLint 规则
+- 代码包含详细的中文注释
+
+### 组件规范
+- 组件使用 PascalCase 命名
+- Props 和 Emits 使用 TypeScript 定义
+- 组件文件放在 `src/components/` 目录下
+
+### API规范
+- API 接口定义在 `src/api/` 目录下
+- 使用 TypeScript 定义请求和响应类型
+- 当前使用 mock 数据，预留真实 API 接口位置
+
+### 样式规范
+- 使用 UnoCSS 原子类进行样式编写
+- 主色调：`#22C55E` (绿色)
+- 使用 `rpx` 单位适配不同屏幕
+- 支持安全区域适配
+
+## 📝 开发说明
+
+### Mock数据
+当前所有 API 接口使用 mock 数据模拟响应，便于开发和测试。对接真实 API 时，只需：
+1. 取消注释真实 API 调用代码
+2. 注释掉 mock 数据部分
+3. 确保接口路径和参数格式匹配
+
+### 主题配置
+- 主色调配置在 `src/style/index.scss` 和 `uno.config.ts`
+- wot-design-uni 主题色：`#22C55E`
+
+### 图标使用
+- 使用 Carbon Icons 图标库
+- 本地图标放在 `src/static/my-icons/` 目录
+- 动态图标需要在 `uno.config.ts` 的 `safelist` 中配置
 
 ## 📄 License
 
 [MIT](https://opensource.org/license/mit/)
 
-Copyright (c) 2025 菲鸽
+Copyright (c) 2025
 
-## 捐赠
+## 🙏 致谢
 
-<p align='center'>
-<img alt="special sponsor appwrite" src="https://oss.laf.run/ukw0y1-site/pay/wepay.png" height="330" style="display:inline-block; height:330px;">
-<img alt="special sponsor appwrite" src="https://oss.laf.run/ukw0y1-site/pay/alipay.jpg" height="330" style="display:inline-block; height:330px; margin-left:10px;">
-</p>
+- 基于 [unibest](https://github.com/feige996/unibest) 框架开发
+- UI组件库：[wot-design-uni](https://wot-design-uni.cn/)
+- 图标库：[Carbon Icons](https://carbondesignsystem.com/elements/icons/library/)

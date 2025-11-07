@@ -34,8 +34,14 @@ export const nativeTabbarList: NativeTabBarItem[] = [
   {
     iconPath: 'static/tabbar/personal.png',
     selectedIconPath: 'static/tabbar/personalHL.png',
-    pagePath: 'pages/me/me',
-    text: '个人',
+    pagePath: 'pages/template/index',
+    text: '模板',
+  },
+  {
+    iconPath: 'static/tabbar/personal.png',
+    selectedIconPath: 'static/tabbar/personalHL.png',
+    pagePath: 'pages/my/index',
+    text: '我的',
   },
 ]
 
@@ -53,7 +59,13 @@ export const customTabbarList: CustomTabBarItem[] = [
     // badge: 'dot',
   },
   {
-    pagePath: 'pages/me/me',
+    text: '模板库',
+    pagePath: 'pages/template/index',
+    iconType: 'unocss',
+    icon: 'i-carbon-template',
+  },
+  {
+    pagePath: 'pages/my/index',
     text: '我的',
     // 1）在fg-tabbar.vue页面上引入一下并注释掉（见tabbar/index.vue代码第2行）
     // 2）配置到 unocss.config.ts 的 safelist 中
@@ -115,7 +127,7 @@ const _tabbar: TabBar = {
   // 只有微信小程序支持 custom。App 和 H5 不生效
   custom: selectedTabbarStrategy === TABBAR_STRATEGY_MAP.CUSTOM_TABBAR_WITH_CACHE,
   color: '#999999',
-  selectedColor: '#018d71',
+  selectedColor: '#22C55E', // 主色调：绿色
   backgroundColor: '#F8F8F8',
   borderStyle: 'black',
   height: '50px',
